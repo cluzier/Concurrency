@@ -1,3 +1,5 @@
+package concurrency;
+
 public class AddNumbers extends Thread {
     private final int[] arrayOfIntegers;
     private final int indexStart;
@@ -13,7 +15,7 @@ public class AddNumbers extends Thread {
     }
 
     /*
-     * Called by {@link Concurrency#main(String[])} and by the {@link AddNumbers#run()} method to
+     * Called by {@link concurrency.Concurrency#main(String[])} and by the {@link concurrency.AddNumbers#run()} method to
      * perform the addition using a single thread and multiple threads, respectively,
      * respectively.
      */
